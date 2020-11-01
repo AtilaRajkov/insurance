@@ -110,4 +110,3 @@ fabric.properties
 # ignore Composer downloads
 /vendor/*
 
-/logs/*

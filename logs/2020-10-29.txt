@@ -1,0 +1,4 @@
+[29-Oct-2020 17:51:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc2\public\index.php(46): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc2\Core\Router.php' on line 136

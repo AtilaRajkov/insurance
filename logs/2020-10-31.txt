@@ -1,0 +1,10 @@
+[31-Oct-2020 21:43:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'Dato osiguranje ne postoji u bazi!'
+Stack trace: #0 C:\xampp\htdocs\mvc2\App\Controllers\Insurances.php(15): App\Models\Insurance::getOne('100')
+#1 C:\xampp\htdocs\mvc2\Core\Router.php(124): App\Controllers\Insurances->show()
+#2 C:\xampp\htdocs\mvc2\public\index.php(46): Core\Router->dispatch('insurances/100/...')
+#3 {main}
+Thrown in 'C:\xampp\htdocs\mvc2\App\Models\Insurance.php' on line 151
+[31-Oct-2020 21:43:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\xampp\htdocs\mvc2\public\index.php(46): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\mvc2\Core\Router.php' on line 136
