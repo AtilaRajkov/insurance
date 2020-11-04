@@ -1,4 +1,6 @@
 
+
+
 $("#type").change(function() {
 
   let type = $("#type").val();

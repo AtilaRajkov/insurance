@@ -116,7 +116,10 @@ require(dirname(__DIR__) . '../partials/_navigation.php');
 
 
   <div class="input-group" id="field-wrapper">
-    <button id="addPerson">Dodajte osobu</button>
+<!--    <button id="addPerson">Dodajte osobu</button>-->
+    <a href="javascript:void(0);" id="addPerson">
+      Dodajte osobu
+    </a>
   </div>
 
 
@@ -165,7 +168,7 @@ require(dirname(__DIR__) . '../partials/_navigation.php');
 
 
   <div>
-    <input type="submit" value="Pošalji" name="submitButton"/>
+    <input type="submit" value="Pošalji" name="submitButton" id="submitButton"/>
   </div>
 
 

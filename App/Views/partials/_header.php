@@ -30,6 +30,7 @@
 
     .input-group {
       margin-bottom: 20px;
+      margin-top: 20px;
     }
 
     .input-label {
@@ -39,6 +40,19 @@
     #addPerson {
       display: none;
       margin-bottom: 20px;
+    }
+
+    #addPerson, #submitButton {
+      font: bold 12px Arial;
+      text-decoration: none;
+      background-color: #EEEEEE;
+      color: #333333;
+      padding: 4px 8px 4px 8px;
+      border-top: 1px solid #CCCCCC;
+      border-right: 1px solid #333333;
+      border-bottom: 1px solid #333333;
+      border-left: 1px solid #CCCCCC;
+      cursor: pointer;
     }
 
     .remove-image {
